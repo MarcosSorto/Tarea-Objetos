@@ -38,5 +38,29 @@ namespace FrmPrincipal
             frmListar listar = new frmListar();
             listar.ShowDialog();
         }
+
+        /// <summary>
+        /// Crea una instancia del formulario crear departamentos y lo
+        /// muestra en la pantalla.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnCrear_Click(object sender, EventArgs e)
+        {
+            frmCrearDepartamento crear = new frmCrearDepartamento();
+            crear.ShowDialog();
+        }
+
+        /// <summary>
+        /// Crea una instancia del formulario actualizar departamento
+        /// y lo muestra en la pantalla.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnActualizar_Click(object sender, EventArgs e)
+        {
+            frmActualizarDepartamentos actualizar = new frmActualizarDepartamentos();
+            actualizar.ShowDialog();
+        }
     }
 }

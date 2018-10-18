@@ -68,6 +68,7 @@
             this.btnCrear.TabIndex = 1;
             this.btnCrear.Text = "Crear Departamentos";
             this.btnCrear.UseVisualStyleBackColor = true;
+            this.btnCrear.Click += new System.EventHandler(this.btnCrear_Click);
             // 
             // btnActualizar
             // 
@@ -77,6 +78,7 @@
             this.btnActualizar.TabIndex = 2;
             this.btnActualizar.Text = "Actualizar Departamento";
             this.btnActualizar.UseVisualStyleBackColor = true;
+            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
             // 
             // btnEliminar
             // 
@@ -105,6 +107,7 @@
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.grpOpciones);
             this.Name = "frmPrincipal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Opciones para departamentos";
             this.grpOpciones.ResumeLayout(false);
             this.ResumeLayout(false);
