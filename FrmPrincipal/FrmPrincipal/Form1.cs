@@ -62,5 +62,17 @@ namespace FrmPrincipal
             frmActualizarDepartamentos actualizar = new frmActualizarDepartamentos();
             actualizar.ShowDialog();
         }
+
+        /// <summary>
+        /// Crea una instancia del formulario eliminar departamento y
+        /// lo mestra en pantalla.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            frmEliminarDepartamento Eliminar = new frmEliminarDepartamento();
+            Eliminar.ShowDialog();
+        }
     }
 }
